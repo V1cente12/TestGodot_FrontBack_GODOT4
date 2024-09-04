@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://backo1n7bal8r"]
+
+[ext_resource type="Texture2D" uid="uid://bkhx23qd50gkk" path="res://pexels-veeterzy-39811.JPG" id="1_jiyyp"]
+[ext_resource type="Script" path="res://sprite_2d.gd" id="1_yasyw"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_tm6wa"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("ImageTexture_tm6wa")
+script = ExtResource("1_yasyw")
+
+[node name="Pexels-veeterzy-39811" type="Sprite2D" parent="."]
+position = Vector2(213, 570)
+texture = ExtResource("1_jiyyp")
